@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="root">
+<div style="text-align:center">
+  <h1>Restful Tasks API</h1><br>
+  <!-- <h1>All the tasks:</h1><br>
+  <p *ngFor='let snack of snacks'>{{snack}}</p>
+  <p *ngFor='let task of tasks'>{{task.task}}</p> -->
+
+    <!-- <button (click)="onButtonClick()">Click me!</button>
+    <button (click)="onButtonClickParam(5)">Click me! Param</button>
+    <button (click)="onButtonClickParams(5, 'hello')">Click me!</button>
+    <button (click)="onButtonClickEvent($event)">click me!</button> -->
+
+    <div class="level2">
+
+      <button (click)="onButtomGetTask()">GET ALL TASKS</button>
+      <p style="text-align:left" *ngFor='let task of tasks'>{{task.task}}
+        <button (click)="onButtomGetDescriptions(task._id)">SHOW</button></p> 
+        
+
+      </div>
+
+        
+        <div *ngIf="ifData" class="level3">
+          <p *ngFor='let task of task'>{{task.description}}</p>
+        </div>
+
+        
+        
+        
+
+     
+
+
+</div>

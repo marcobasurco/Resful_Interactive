@@ -1,0 +1,15 @@
+.root{
+    border: 5px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+.level2{
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.level3{
+    border: 5px solid green;
+    border-radius: 10px;
+    padding: 10px;
+}
